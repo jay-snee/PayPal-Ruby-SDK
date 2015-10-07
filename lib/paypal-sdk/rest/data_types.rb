@@ -1743,7 +1743,7 @@ module PayPal::SDK
               object_of :shipping_address, Address
               object_of :override_merchant_preferences, MerchantPreferences
             array_of  :override_charge_models, OverrideChargeModel
-              object_of :plan, Plan
+              object_of :plan_id, String
               object_of :create_time, String
               object_of :update_time, String
             array_of  :links, Links
